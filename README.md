@@ -29,6 +29,6 @@ $ {"ip":"","country_code":"","country_name":"","region_code":"","region_name":""
 $ ./whereami.sh human
 $ CODE,COUNTRY,CITY
 
-$ docker run --rm vandot/casbab
+$ docker run --rm vandot/whereami
 $ 144.8186,120.4681
 ```
