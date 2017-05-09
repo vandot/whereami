@@ -1,4 +1,4 @@
-# Bash HTTP Client
+# WhereAmI
 
 CLI geolocation tool using [bashclient](https://github.com/vandot/bashclient) for HTTP requests abusing freegeoip.net API.
 
