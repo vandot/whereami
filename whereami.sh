@@ -77,7 +77,7 @@ parse() {
 if [[ "${BASH_SOURCE[0]}" = "$0" ]]; then
 
   case "${1:-"coord"}" in
-#/   coord returns only coordinates 
+#/   coord returns only coordinates [default]
     coord)
       res=$(get)
       parse "${res}" 'coord'
