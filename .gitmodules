@@ -1,0 +1,3 @@
+[submodule "bashclient"]
+	path = bashclient
+	url = https://github.com/vandot/bashclient

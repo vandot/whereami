@@ -19,7 +19,7 @@
 #/ Options:
 
 # shellcheck disable=SC1091
-. ./bashclient.sh
+. ./bashclient/bashclient.sh
 
 usage() { grep '^#/' "$0" | cut -c4- ; exit 0 ; }
 expr "$*" : ".*-h" > /dev/null && usage
